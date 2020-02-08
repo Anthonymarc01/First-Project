@@ -1,0 +1,221 @@
+*{
+    background-size: 100%;
+    word-spacing: 0.1rem;
+}
+body{
+    margin: 0;
+    text-align: center;
+   
+        
+}
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento-Regular;
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+    font-family: Montserrat-Medium;
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+    font-family: Montserrat-Light;
+}
+.image{
+    background-image: url(../img/image_search_1580426101314.jpg);
+    background-repeat: no-repeat;
+    height: 45rem;
+    background-size: cover;
+    padding: 1rem;  
+}
+
+
+
+
+
+
+.name{    
+    font-family:  Sacramento-Regular;
+    
+}
+.marc{
+    text-shadow: black;
+    margin-top: 15rem;
+    margin-bottom: 0;
+    color: rgb(231, 231, 231);
+    font-size: 5rem;
+    
+}
+.web{
+    font-family: Montserrat-Medium;
+    margin: 0;
+    color: thistle;
+    font-size: 1.5rem;
+
+}
+.grad{
+    position: relative;
+    background-image: linear-gradient(#1d182e,#2d194e);
+    height: 165rem;
+    
+}
+
+
+.dp{
+    margin-top: 15rem;
+    height: 12rem;
+}
+.hello{
+    font-family: Montserrat-Medium;
+    margin-top: 1rem;
+    color: ivory;
+    font-size: 3rem;
+    
+}
+
+
+.bio{
+    font-family: Montserrat-Medium;
+    margin-top: 5rem;
+    color: ivory;
+    font-size: 15px;
+}
+.skills{
+    font-family: Montserrat-Medium;
+    color:ivory;
+    font-size: 3rem;
+    margin-top: 25rem;    
+}
+.ps{
+    height: 12rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5rem;
+    margin-left: 5rem;
+}
+
+.praispace{
+    margin-top: 10rem;
+}
+.ai{
+    height: 12rem;
+    margin-right: 5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.def{
+    margin-right: 5rem;
+    margin-left: 10rem;
+    text-align: left;
+    color: white;
+    font-size:1.5rem;
+    text-align: justify;
+    
+    
+    
+    
+}
+.indent{
+    font-size: 1rem;
+    text-indent: 5rem;
+    font-family: Montserrat-Light;
+}
+.psw{
+    margin-left: 5rem;
+    font-size: 2rem;
+    margin-top: 12rem;
+    color: white;
+    text-align: left;
+    margin-right: 10rem;
+    text-align: justify;
+    
+    
+}
+.getit{
+    font-family: Montserrat-Medium;
+    font-size: 3rem;
+    color: white;
+    margin-top: 30rem;
+}
+.lt{
+    font-family: Montserrat-Medium;
+    font-size: 1rem;
+    margin-top: 8rem;
+    color: white;
+}
+.contact{
+    border: 0;
+    border-radius: 1rem;
+    color: white;
+    margin-top: 5rem;
+    height: 2rem;
+    width: 8rem;
+    font-size: 0.7rem;
+    background-image: linear-gradient(to bottom,rgb(59, 30, 112),rgb(179, 2, 164));
+
+    
+}
+.gradfooter{
+    
+    background-color: rgb(135, 60, 255);
+    height: 10rem;
+}
+.textfooter{
+    
+    font-family: Montserrat-Medium;
+    padding: 2rem;
+    color: white;
+    
+}
+.leal{
+    margin-top: 2rem;
+    font-size: 0.5rem;
+}
+
+
+
+
+li{
+    display: inline;
+    margin: 2rem;
+    font-size: 1.5rem;
+    
+}
+.love{
+    font-family: Montserrat-Light;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+.txtf{
+    font-size: 0.9rem;
+}
+.contact:hover{
+    border: 0;
+    border-radius: 1rem;
+    color: white;
+    margin-top: 5rem;
+    height: 2rem;
+    width: 8rem;
+    font-size: 0.7rem;
+    background-image: linear-gradient(to bottom,rgb(59, 30, 112),rgb(85, 45, 158));
+
+    
+}
+.ani{
+    margin-top: 8rem;
+   height: 5rem;
+   animation: ani 1s linear;
+   
+}
+@keyframes ani{
+
+    0%
+    {
+        opacity: 0;
+        transform: translateX(-1vw);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(10rem)
+    }
+    
+}
